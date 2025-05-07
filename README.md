@@ -1,5 +1,9 @@
 # Go + Next.js + SQLite3 Template
 
+![Go](https://img.shields.io/badge/Go-1.24-blue?logo=go)
+![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
+![SQLite3](https://img.shields.io/badge/Database-SQLite3-lightgrey?logo=sqlite)
+
 A modern full-stack web application boilerplate combining:
 
 - **Go** (Golang) for backend APIs
@@ -14,7 +18,7 @@ A modern full-stack web application boilerplate combining:
 | Layer               | Technology           |
 | ------------------- | -------------------- |
 | Backend             | Go (1.24+)           |
-| Frontend            | Next.js (React 19+)  |
+| Frontend            | Next.js (15+)        |
 | Database            | SQLite3              |
 | Database Migrations | pressly/goose        |
 | UI Kit              | ShadCN UI            |
@@ -22,10 +26,12 @@ A modern full-stack web application boilerplate combining:
 
 ## 🗂 Project Structure
 
+```bash
 project-root/
 ├── backend/ # Go backend (API, DB models, etc.)
 ├── frontend/ # Next.js frontend app
 └── README.md
+```
 
 ## 🚀 Getting Started
 
