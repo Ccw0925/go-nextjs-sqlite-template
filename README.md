@@ -1,10 +1,10 @@
-# Go + Next.js + SQLite Template
+# Go + Next.js + SQLite3 Template
 
 A modern full-stack web application boilerplate combining:
 
 - **Go** (Golang) for backend APIs
 - **Next.js** (React) for frontend
-- **SQLite** for simple, file-based persistence
+- **SQLite3** for simple, file-based persistence
 - **TanStack React Query** for frontend data fetching and caching
 - **ShadCN UI** for styled, accessible React components
 - **goose** for database migration versioning control
@@ -13,9 +13,9 @@ A modern full-stack web application boilerplate combining:
 
 | Layer               | Technology           |
 | ------------------- | -------------------- |
-| Backend             | Go                   |
-| Frontend            | Next.js (React 18+)  |
-| Database            | SQLite               |
+| Backend             | Go (1.24+)           |
+| Frontend            | Next.js (React 19+)  |
+| Database            | SQLite3              |
 | Database Migrations | pressly/goose        |
 | UI Kit              | ShadCN UI            |
 | Data Sync           | TanStack React Query |
